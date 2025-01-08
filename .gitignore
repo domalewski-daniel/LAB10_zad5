@@ -1,0 +1,26 @@
+# Ignorowanie katalogów i plików IntelliJ IDEA
+.idea/
+*.iml
+
+# Ignorowanie plików kompilacji i wynikowych
+/out/
+*.class
+
+# Ignorowanie plików logów
+*.log
+
+# Ignorowanie konfiguracji specyficznych dla systemu
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignorowanie plików generowanych przez Maven/Gradle
+target/
+*.jar
+*.war
+*.ear
+
+# Ignorowanie plików systemowych
+.vscode/
+*.tmp
